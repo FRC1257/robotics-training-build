@@ -31,6 +31,10 @@ You are highly encouraged to do the following:
 
 Besides the fact that Chromebooks are dreadfully slow, it's **so** much easier previewing your work. It is also rather difficult previewing how images look on Chromebooks.
 
+### Sidenote: editing directly on GitHub
+
+Click `Add File`. Note that empty folders are not allowed. If you need to create a folder, name the file `foldername/README.md`. This will force GitHub to create a folder with a `README.md` file within it. You don't need to name the file `README.md`, but more on that later.
+
 ## Preface
 
 This website's formatting depends on the particular folder structure and files it is expected to interpret.
