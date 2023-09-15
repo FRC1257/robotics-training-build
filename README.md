@@ -1,6 +1,6 @@
 # Robotics Training
 
-Team 1257's repository for training new members.
+Team 1257's repository for training new build members.
 
 Formatted Documentation: [https://frc1257.github.io/robotics-training-build/#/](https://frc1257.github.io/robotics-training-build/#/)
 
