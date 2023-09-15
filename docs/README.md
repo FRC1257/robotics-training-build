@@ -42,14 +42,14 @@ Why should we use this? Well, unlike Word or Google Docs, formatting is directly
 
 Let's start learning some basic Markdown syntax (don't worry, it's super simple!).
 
-- If you're in VSCode, create a new file ending in `.md`.
+- If you're in VSCode, create a new file ending in `.md`. Preview your work with `Ctrl + Shift + V`.
 - If you're on a Chromebook, go to [this](https://markdownlivepreview.com/) website.
 
-**[This](https://www.markdownguide.org/cheat-sheet/#basic-syntax) cheat sheet 99% of all the Markdown you need to know.**
+**[This](https://www.markdownguide.org/cheat-sheet/#basic-syntax) cheat sheet has 99% of all the Markdown you need to know.**
 
 Try out each of the elements! Notice how what you write becomes nicely formatted when your Markdown gets parsed.
 
-For example, the secion you're reading **right now** was written like this:
+For example, the section you're reading **right now** was written like this:
 
 ```md
 ## Basic Markdown
@@ -63,11 +63,14 @@ Let's start learning some basic Markdown syntax (don't worry, it's super simple!
 
 Try out each of the elements! Notice how what you write becomes nicely formatted when your Markdown gets parsed.
 
-For example, the secion you're reading **right now** was written like this:
+For example, the section you're reading **right now** was written like this:
 ```
 
 > [!TIP]
 > Number each item in an ordered list with `1.`, and Markdown will automatically figure out the numbering for you.
+
+> [!NOTE]
+> It's good practice to leave a blank line between a heading and the text below it. Personally, as a rule of thumb, I seperate different elements (e.g., heading & text, list & text, video & text) with a blank line.
 
 ### Basic Mistakes
 
@@ -217,7 +220,7 @@ As it turns out, we can ignore most of the files and folders within it; there ar
 
 #### The `README.md` file
 
-This file should always be the landing page of any folder (more on when we talk about `_sidebar.md`).
+This file should always be the landing page of any folder (more on that when we talk about `_sidebar.md`).
 
 #### The `img/` folder
 
@@ -237,14 +240,14 @@ Before we panic, let's take a moment to look at the folder structure again.
 
 ![sidebar folders](img/sidebarFolder.png)
 
-Let's compare that to the actual programming documentation [website](https://frc1257.github.io/robotics-training/#/java/1-Basics/1-First_Program).
+Let's compare it to the actual programming documentation [website](https://frc1257.github.io/robotics-training/#/java/1-Basics/1-First_Program).
 
 ![sidebar on website](img/sidebarSite.png)
 
 Don't you notice something? Here's what I notice:
 
 1. `_sidebar.md` directly links tabs in the sidebar to actual Markdown files
-1. `_sidebar.md` has **identation**, which directly mirrors the folder structure
+1. `_sidebar.md` has **identation** that directly mirrors the folder structure
 1. Folders (e.g., `java/`, `1-Basics/`, `programs/`) help us divide our documentation into easily browsable sections
 
 > [!NOTE]
@@ -258,8 +261,8 @@ Don't you notice something? Here's what I notice:
 1. Be sure to update `_sidebar.md` as you add or remove folders/sections and files
 1. To follow best practice when storing images, create a `img/` folder within each section to store them
 
-### 🎉 Conclusion
+## 🎉 Conclusion
 
-Congrats! You've just figured out the entire folder structure just by looking at 3 images! And in fact, this is everything that you need to know to make awesome documentation. Happy documenting!
+Congrats! You've just figured out the entire folder structure just by looking at 3 images! And in fact, this is **everything** that you need to know to make awesome documentation. Happy documenting!
 
 ![cat gif](img/typingcat.gif)
